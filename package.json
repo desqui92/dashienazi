@@ -1,0 +1,29 @@
+{
+  "name": "DashieNazi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.0.0-alpha.16",
+    "discord.js": "^11.4.2",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-binaries": "^4.0.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs": "0.0.1-security",
+    "get-youtube-id": "^1.0.0",
+    "node-opus": "^0.3.0",
+    "opusscript": "0.0.6",
+    "request": "^2.88.0",
+    "swf-reader": "^1.0.0",
+    "swfobject": "^2.2.1",
+    "youtube-info": "^1.2.1",
+    "yt-search": "^0.2.0",
+    "ytdl-core": "^0.25.2"
+  }
+}
