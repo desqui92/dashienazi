@@ -24,7 +24,7 @@
     "swfobject": "^2.2.1",
     "youtube-info": "^1.2.1",
     "yt-search": "^0.2.0",
-    "ytdl-core": "^0.25.2"
+    "ytdl-core": "^0.25.2",
     "node-pre-gyp": "0.6.39"
   }
 }
