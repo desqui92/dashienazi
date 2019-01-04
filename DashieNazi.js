@@ -486,3 +486,14 @@ async function lol(nombresito, channel){
 
     channel.send(`FELICIDADES, ${nombresito.username}!, GANASTE!!!!!!`, attachment);
   }
+
+client.on("message", msg => {
+    if (msg.content.toLowerCase().startsWith(prefix + "driftear")) {
+        async function clear() {
+            msg.delete();
+            const fetched = await msg.channel.fetchMessages({limit: 99});
+            msg.channel.bulkDelete(fetched);
+        }
+        clear();
+    }
+});
