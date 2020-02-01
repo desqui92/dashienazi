@@ -328,10 +328,10 @@ client.on('guildMemberAdd', async member => {
   const channel = member.guild.channels.find(ch => ch.name === '🌌recepcion🌌');
     if (!channel) return;
 
-    const canvas = Canvas.createCanvas(1000, 1000);
+    const canvas = Canvas.createCanvas(1200, 472);
     const ctx = canvas.getContext('2d');
 
-    const background = await Canvas.loadImage('./driftboys.jpg');
+    const background = await Canvas.loadImage('./welcome-image.jpg');
     ctx.drawImage(background, 0, 0, canvas.width, canvas.height);
 
     ctx.strokeStyle = '#74037b';
@@ -359,7 +359,7 @@ client.on('guildMemberAdd', async member => {
 
     const attachment = new Discord.Attachment(canvas.toBuffer(), 'welcome-image.jpg');
 
-    channel.send(`Welcome to the server, ${member}!`, attachment);
+    channel.send(`Welcome to the servero, ${member}!`, attachment);
 });
 
 
