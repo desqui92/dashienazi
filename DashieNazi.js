@@ -452,7 +452,7 @@ message.channel.bulkDelete(1);
 });
 
 async function lol(nombresito, channel){
-  const canvas = Canvas.createCanvas(1000, 1000);
+  const canvas = Canvas.createCanvas(1200, 472);
   const ctx = canvas.getContext('2d');
 
   const background = await Canvas.loadImage('./driftboys.jpg');
