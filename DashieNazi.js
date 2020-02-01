@@ -357,7 +357,7 @@ client.on('guildMemberAdd', async member => {
     const avatar = await Canvas.loadImage(buffer);
     ctx.drawImage(avatar, 25, 25, 200, 200);
 
-    const attachment = new Discord.Attachment(canvas.toBuffer(), 'welcome-image.png');
+    const attachment = new Discord.Attachment(canvas.toBuffer(), 'welcome-image.jpg');
 
     channel.send(`Welcome to the server, ${member}!`, attachment);
 });
@@ -482,7 +482,7 @@ async function lol(nombresito, channel){
     const avatar = await Canvas.loadImage(buffer);
     ctx.drawImage(avatar, 300, 300, 200, 200);
 
-    const attachment = new Discord.Attachment(canvas.toBuffer(), 'welcome-image.png');
+    const attachment = new Discord.Attachment(canvas.toBuffer(), 'welcome-image.jpg');
 
     channel.send(`FELICIDADES, ${nombresito.username}!, GANASTE!!!!!!`, attachment);
   }
