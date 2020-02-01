@@ -331,7 +331,7 @@ client.on('guildMemberAdd', async member => {
     const canvas = Canvas.createCanvas(1000, 1000);
     const ctx = canvas.getContext('2d');
 
-    const background = await Canvas.loadImage('./wallpaper.jpg');
+    const background = await Canvas.loadImage('./driftboys.jpg');
     ctx.drawImage(background, 0, 0, canvas.width, canvas.height);
 
     ctx.strokeStyle = '#74037b';
@@ -455,7 +455,7 @@ async function lol(nombresito, channel){
   const canvas = Canvas.createCanvas(1000, 1000);
   const ctx = canvas.getContext('2d');
 
-  const background = await Canvas.loadImage('./wallpaper.jpg');
+  const background = await Canvas.loadImage('./driftboys.jpg');
   ctx.drawImage(background, 0, 0, canvas.width, canvas.height);
 
     ctx.strokeStyle = '#74037b';
