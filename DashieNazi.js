@@ -33,6 +33,12 @@ var emitter = new MyEmitter();
 
 client.login(discord_token);
 
+//FONDO
+body.onload = fondo;
+function fondo(){
+  let hola = document.getElementsByClassName("chatContent-a9vAAp")[0];
+  hola.style.backgroundColor = "rgba(20,20,20)";
+}
 
 //hola
 
